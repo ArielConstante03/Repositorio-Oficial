@@ -14,7 +14,7 @@ print(int(3)**int(4))
 print("Ariel")
 print("Constante")
 print("Ecuador")
-print("Estoy disfrutando de 30 días de Python")
+print(len("Estoy disfrutando de 30 días de Python"))
 
     #Ejercicio 4
 print(type (10))
