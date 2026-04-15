@@ -5,6 +5,7 @@
 # 08 04 2026
 #Actividad 2
     #Ejercicio 1
+# %%
 first_name, last_name, country, age, is_married, is_true, light_on = "Ariel", "Constante", "Ecuador", 17, False, False, True
 print(first_name, last_name, country, age, is_married, is_true, light_on)
 print("First Name:", first_name)
@@ -16,11 +17,13 @@ print("Is True:", is_true)
 print("Light On:", light_on)
 
 # Varias variables en una sola línea
+# %%
 a, b, c = 1, 2, 3
 
 # Nivel 2
 
 # 1. Tipos de datos
+# %%
 print(type(first_name))
 print(type(last_name))
 print(type(first_name))
@@ -33,14 +36,17 @@ print(type(is_true))
 print(type(light_on))
 
 # 2. Longitud del nombre
+# %%
 print(len(first_name))
 
 # 3. Comparación de longitudes
+# %%
 print(len(first_name) > len(last_name))
 print(len(first_name) < len(last_name))
 print(len(first_name) == len(last_name))
 
 # 4. Números
+# %%
 numeroUno = 5
 numeroDos = 4
 
@@ -56,6 +62,7 @@ divisionEntera = numeroUno // numeroDos
 print(total, diferencia, producto, division, residuo, potencia, divisionEntera)
 
 # 12-14 Círculo
+# %%
 radio = 30
 pi = 3.1416
 
@@ -80,3 +87,4 @@ print(nombreUsuario, apellidoUsuario, paisUsuario, edadUsuario)
 
 # 17. Palabras reservadas
 help('keywords')
+# %%
