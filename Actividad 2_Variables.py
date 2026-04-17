@@ -15,7 +15,15 @@ print("Age:", age)
 print("Married:", is_married)
 print("Is True:", is_true)
 print("Light On:", light_on)
-
+# %%
+first_name, last_name, country, age, is_married, is_true, light_on = "Ariel", "Constante", "Ecuador", 17, False, False, True
+print(f'First Name: {first_name}')
+print(f'Last Name: {last_name}')
+print(f'Country: {country}')
+print(f'Age: {age}')
+print(f'Married: {is_married}')
+print(f'Is True: {is_true}')
+print(f'Light On: {light_on}')
 # Varias variables en una sola línea
 # %%
 a, b, c = 1, 2, 3
