@@ -16,16 +16,17 @@ else:
 # %%
 #Mi versión
 a = int(input("Ingrese un número: "))
-if a > 0:
-    if a % 2 == 0:
-        print('A is a positive even number')  # A is a positive even number
-    else:
-        print('A is a positive odd number')  # A is a positive odd number
-        if a < 0:
-            if a % 2 == 0:
-                print('A is a negative even number')  # A is a negative even number
-            else:
-                print('A is a negative odd number')  # A is a negative odd number
-else:
+if a == 0:
     print('A is zero')  # A is zero
+else:
+    if a > 0:
+        if a % 2 == 0:
+            print('A is a positive even number')  # A is a positive even number
+        else:
+            print('A is a positive odd number')  # A is a positive odd number
+    else:  # a < 0
+        if a % 2 == 0:
+            print('A is a negative even number')  # A is a negative even number
+        else:
+            print('A is a negative odd number')  # A is a negative odd number
 # %%
